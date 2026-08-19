@@ -16,7 +16,7 @@ func main() {
 	frutas = append(frutas, "Pera")
 	//slices.Sort(frutas)
 	// slices.Reverse(frutas)
-	frutas = slices.Delete(frutas, 1, 3)
+	de = slices.Delete(frutas, 1, 3)
 	fmt.Println(frutas)
 	fmt.Println("Tamanho da lista: ", len(frutas))
 	fmt.Println("Tem maçã na lista? ", slices.Contains(frutas, "Maçã"))
