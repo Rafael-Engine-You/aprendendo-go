@@ -9,7 +9,7 @@ func main() {
 	// array := [10]int {}
 	// slices := []int {}
 	maps := map[string]int { // CHAVE: VALOR
-		"Joao": 20,
+		"joao": 20,
 		"antonio": 24,
 		"maria": 30,
 		"gustavo": 11,
