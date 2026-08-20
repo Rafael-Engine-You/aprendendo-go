@@ -5,6 +5,7 @@ import (
 	// c "aprendendo-go/calc"
 	"time"
 	cli "aprendendo-go/clientes"
+	prod "aprendendo-go/produtos"
 )
 
 func main() {
@@ -26,4 +27,11 @@ func main() {
 	fmt.Println("Cliente: ", antonio.NomeCompleto)
 	fmt.Printf("Data Nascimento: %s\n", 
 				antonio.DataNascimento.Format("02/01/2006"))
+	celular := prod.Produto {
+		Nome: "Iphone 17 Pro Max",
+		Preco: 16999.99,
+		quantidade: 10
+
+		fmt.Println("Pruduto : ", celular.Nome)
+	}
 }
